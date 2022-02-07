@@ -31,7 +31,7 @@ for(var i=0;i<arraysize;i++){
     currdiv.style.width = `${currwidth}px`;
     currdiv.style.height = `${currheight}px`;
     document.getElementById("bars").append(currdiv);
-    console.log(arr);
+  //  console.log(arr);
     arr.push(currheight);
 }
 }

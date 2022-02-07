@@ -1,5 +1,5 @@
 const i_sort = document.getElementById("insertion_sort");
-const size = 100;
+// const size = 100;
 
 
 i_sort.addEventListener('click',() => {
@@ -34,7 +34,7 @@ async function isort(){
                 ele.style.height = `${h2}px`;
                 
                 resolve();
-             }, 20);
+             }, 2000);
          });
         
          ele.style.background = "green";
